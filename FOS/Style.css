@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    height: 105px;
+    background-attachment: fixed;
+}
+
+.top h3{
+    float: left;
+    margin-left: 3%;
+    margin-top: 2%;
+    font-size: 40px;
+    color:gold;
+}
+
+.top ul a{
+    float: right;
+    margin-right: 3%;
+    margin-top: 3%;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.main{
+    background-image: url(images/background.png);
+    height: 655px;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.main label{
+    font-size: 30px;
+    margin-left: 35%;
+}
+
+.main input{
+    font-size: 20px;
+}
+
+.main h3{
+    text-align: center;
+}
+
+.main h1{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 3%;
+    margin-top: 6%;
+    color: rgb(46, 90, 211);
+}
+
+.order a{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.order {
+    border: 1px solid gray;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    background-color: gold;
+}
+
+.order:hover{
+    background-color: red;
+}
+
+.order a:hover{
+    color: gold;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 3%;
+    color:rgb(155, 238, 73);
+}
+
+
+.main h1{
+    animation-duration: 1s;
+    animation-name: slideup;
+}
+@keyframes slideup{
+    0%{
+        margin-bottom: 150%;
+    }
+    100%{
+        margin-top: 6%;
+    }
+}
